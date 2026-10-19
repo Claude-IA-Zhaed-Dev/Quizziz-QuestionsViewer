@@ -23,6 +23,11 @@ Cole e dê Enter:
 ```js
 fetch('https://github.com/Claude-IA-Zhaed-Dev/Quizziz-QuestionsViewer/blob/main/wayground-export.js').then(r=>r.text()).then(t=>(0,eval)(t))
 ```
+ou
+```
+// Alternativa 1 – via jsDelivr (tag <script>)
+var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Claude-IA-Zhaed-Dev/Quizziz-QuestionsViewer@main/wayground-export.js';document.head.appendChild(s)
+```
 > Chrome/Edge: na primeira vez o console pede para digitar `allow pasting` (em português, `permitir colar`).
 > Digite e cole de novo.
 Aparece um painel no canto da tela. Ao terminar ele já tenta copiar sozinho; se não conseguir, clique em
